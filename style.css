@@ -1,14 +1,59 @@
+h1 {
+    font-size: 75px;
+}
 /*These are the Journal Titles*/
 h2 {
     color:rgb(252, 252, 252);
-    size: 1010px;
+    font-size: 300%;
 }
 
 /*These are the time of the day */
 h3{
-    color: powderblue;
+    color: rgb(18, 65, 71);
+    background-color:rgb(207, 165, 185);
+    font-size:2em;
+    padding: 3mm 2mm 3mm 2mm;
+    text-align: center;
+
+    border-color:white;
+    border-style:dotted;
+    border-width: 1mm;
 }
 
 p{
-    color: hsl(281, 74%, 21%);
+    color: hsl(0, 0%, 100%);
+    font-size: 2vw;
+
+    border-style:dashed;
+    border-color:rebeccapurple;
+    background-color: rosybrown;
+
+    border-width: 0mm;
+    border-radius: 0mm;
+
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+
+    padding-top: 10mm;
+    padding-left: 10mm;
+    padding-right: 10mm;
+    padding-bottom: 10mm;
+}
+
+ul, li {
+    color: white;
+    background-color:rosybrown;
+
+    padding: 3mm 3mm 3mm 3mm;
+    margin: 1mm 0mm 0mm 0mm;
+
+}
+
+
+text {
+    color: white;
+    text-decoration: slategray;
+    text-align: left;
 }
