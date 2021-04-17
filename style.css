@@ -1,5 +1,14 @@
+/* Import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Source+Code+Pro:ital,wght@1,200;1,300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* This is the title */
 h1 {
     font-size: 75px;
+    text-decoration:underline;
 }
 /*These are the Journal Titles*/
 h2 {
@@ -18,6 +27,12 @@ h3{
     border-color:white;
     border-style:dotted;
     border-width: 1mm;
+}
+
+footer {
+    background-color: rgb(207, 165, 185);
+    padding: 4mm 4mm 4mm 10mm;
+    margin: 2mm 2mm 2mm 2mm;
 }
 
 p{
@@ -42,6 +57,7 @@ p{
     padding-bottom: 10mm;
 }
 
+
 ul, li {
     color: white;
     background-color:rosybrown;
@@ -49,11 +65,69 @@ ul, li {
     padding: 3mm 3mm 3mm 3mm;
     margin: 1mm 0mm 0mm 0mm;
 
-}
+    
 
+}
 
 text {
     color: white;
     text-decoration: slategray;
     text-align: left;
+}
+
+.table_of_contents {
+    display: none;
+}
+
+.topOfPage{
+    background-color: rgb(207, 165, 185);
+    position: fixed;
+    padding: 2mm 2mm 2mm 2mm;
+    margin: -10mm 0mm 0mm 0mm;
+    color: white;
+}
+
+.pancakes img{
+    position: absolute;
+    right: 0mm;
+}
+
+.pancakes p {
+    position: absolute;
+    right: 10mm;
+    width: 10rem;
+}
+
+.books {
+    display: flex;
+    flex: auto auto auto;
+}
+
+.flowers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3mm 3mm 3mm 3mm;
+}
+
+footer h2 {
+    display:none;
+}
+
+footer h3:hover {
+    color: white;
+}
+
+footer h3:active{
+    color:rgb(32, 26, 56);
+}
+
+#thoughts {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+@media screen and (max-width: 1000px) {
+    body {
+        background:rgb(207, 165, 185);
+    }
 }
