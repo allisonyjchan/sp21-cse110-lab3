@@ -125,6 +125,26 @@ footer h3:active{
     font-family: 'Source Code Pro', monospace;
 }
 
+p[title] {
+    background-color:seashell;
+    color:slategrey;
+    font-weight: bold;
+}
+
+div > p {
+    background-color:teal;
+}
+
+div + p {
+    background-color:turquoise;
+}
+
+div ~ p {
+    background-color:wheat;
+    color:rgb(14, 41, 41);
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 1000px) {
     body {
